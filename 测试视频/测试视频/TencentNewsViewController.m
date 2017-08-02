@@ -373,6 +373,7 @@
     [self.table registerNib:[UINib nibWithNibName:@"VideoCell" bundle:nil] forCellReuseIdentifier:@"VideoCell"];
     
     [self addMJRefresh];
+    NSLog(@"hhah");
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
